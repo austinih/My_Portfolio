@@ -5,6 +5,7 @@ import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import Image from 'next/image'
 import Nav from '@/components/Nav'
 import About from '@/components/About'
+import Projects from '@/components/Projects'
 
 export default function Home() {
   return (
@@ -15,18 +16,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-white' px-10>
-        <section className='min-h-screen'>
+      <main className='bg-white min-h-screen text-center ' px-10>
+        <Nav/>
+        <section className='px-10 my-5'>
+          <About/>       
+        </section>
 
-          <Nav/>
-         
-          <div className='text-center px-10 my-5'>
-            
-            <About/>
-          </div>
-          <div>
-
-          </div>
+      {/* second page */}
+        <section className='px-10 my-5'>
+          <Projects />
         </section>
       </main>
     </div>
