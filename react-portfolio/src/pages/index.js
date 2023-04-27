@@ -21,9 +21,7 @@ export default function Home() {
           <Nav/>
          
           <div className='text-center px-10 my-5'>
-            <h1 className='text-5xl py-2 text-teal-500 font-medium'> Austin Holland</h1>
-            <h2 className='text-2xl pt-2'>Full Stack Engineer </h2>
-            <h2 className='text-2xl pb-2'>React | Node | Python</h2>
+            
             <About/>
           </div>
           <div>

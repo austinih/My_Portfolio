@@ -3,7 +3,8 @@ import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 
 export default function Nav() {
     return (
-        <div className='py-10 mb-5'>
+        <div className='pt-10 py-5 mb-10 bg-slate-100'>
+            
             <ul className='flex items-center justify-center'>
               <li> 
                 <a className='cursor-pointer bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 mx-2 rounded-md '>About</a>
