@@ -1,6 +1,7 @@
 
 import Head from 'next/head'
-
+import {BsFillMoonStarsFill} from 'react-icons/bs'
+import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 
 export default function Home() {
   return (
@@ -13,18 +14,34 @@ export default function Home() {
 
       <main className='bg-white' px-10>
         <section className='min-h-screen'>
-          <nav className='py-10 mb-12 flex justify-center'>
-            <ul className='flex items-center'>
-              <li className='cursor-pointer px-4 py-2 rounded-md mx-2'>Night</li>
-              <li><a href="https://www.linkedin.com/in/austinih/" target="_blank" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md mx-2'>LinkedIn</a> </li>
-              <li><a href="https://github.com/austinih" target="_blank" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md mx-2'>GitHub</a> </li>
-              <li> <a className='cursor-pointer bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md mx-2'>Resume</a></li>
+          <nav className='py-10 mb-12 '>
+            <ul className='flex items-center justify-center'>
+              <li >
+                <a className='cursor-pointer px-4 py-2  text-xl mx-10'>
+                  <BsFillMoonStarsFill/>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/austinih/" target="_blank" className=' px-4 py-2 mx-10 text-2xl'>
+                  <AiFillLinkedin/>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/austinih" target="_blank" className=' px-4 py-2 mx-10 text-2xl'>
+                  <AiFillGithub/>
+                </a> </li>
+              <li> 
+                <a className='cursor-pointer bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md '>Resume</a>
+              </li>
             </ul>
           </nav>
           <div>
             <h1> Austin Holland</h1>
             <h2>Full Stack Engineer - React | Node | Python</h2>
+            <p>I’m a Full Stack Software Engineer with a background in Accounting and Recruiting. I use my previous experience in combination with software development to first understand the why behind a project. And second, to deliver a user-friendly solution that exceeds expectations. I believe technology should be simple, powerful, and fun! I strive to incorporate these principles in every product I create to improve the world one program at a time.
+            </p>
           </div>
+          <div></div>
         </section>
       </main>
     </div>
