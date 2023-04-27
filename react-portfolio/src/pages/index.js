@@ -3,6 +3,8 @@ import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import Image from 'next/image'
+import Nav from '@/components/Nav'
+import About from '@/components/About'
 
 export default function Home() {
   return (
@@ -15,45 +17,14 @@ export default function Home() {
 
       <main className='bg-white' px-10>
         <section className='min-h-screen'>
-          <nav className='py-10 mb-5= '>
-            <ul className='flex items-center justify-center'>
-              <li> 
-                <a className='cursor-pointer bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 mx-2 rounded-md '>About</a>
-              </li>
-              <li> 
-                <a className='cursor-pointer bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 mx-2 rounded-md '>Projects</a>
-              </li>
-              <li> 
-                <a className='cursor-pointer bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 mx-2 rounded-md '>Skills</a>
-              </li>
-              <li> 
-                <a className='cursor-pointer bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 mx-2 rounded-md '>Resume</a>
-              </li>
-            </ul>
-            <ul className='flex items-center justify-center mt-5 text-gray-700'>
-              <li className='cursor-pointer px-4 pt-2  text-2xl'>
-                <a >
-                  <BsFillMoonStarsFill/>
-                </a>
-              </li>
-              <li className='cursor-pointer px-4 pt-2  text-3xl '>
-                <a href="https://www.linkedin.com/in/austinih/" target="_blank" >
-                  <AiFillLinkedin/>
-                </a>
-              </li>
-              <li className='cursor-pointer px-4 pt-2  text-3xl'>
-                <a href="https://github.com/austinih" target="_blank">
-                  <AiFillGithub/>
-                </a> 
-              </li>
-            </ul>
-          </nav>
+
+          <Nav/>
+         
           <div className='text-center px-10 my-5'>
             <h1 className='text-5xl py-2 text-teal-500 font-medium'> Austin Holland</h1>
             <h2 className='text-2xl pt-2'>Full Stack Engineer </h2>
             <h2 className='text-2xl pb-2'>React | Node | Python</h2>
-            <p className='text-md py-5 leading-7 text-gray-800'>I’m a Full Stack Software Engineer with a background in Accounting and Recruiting. I use my previous experience in combination with software development to first understand the why behind a project. And second, to deliver a user-friendly solution that exceeds expectations. I believe technology should be simple, powerful, and fun! I strive to incorporate these principles in every product I create to improve the world one program at a time.
-            </p>
+            <About/>
           </div>
           <div>
 
