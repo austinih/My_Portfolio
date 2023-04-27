@@ -4,11 +4,11 @@ import headshot from '../../public/Austin_Headshot.jpeg'
 export default function About() {
     return (
         <div>
-        <h1 className='text-5xl py-2 text-teal-500 font-medium'> Austin Holland</h1>
+        <h1 className='text-5xl py-2 text-cyan-600 font-medium'> Austin Holland</h1>
             <h2 className='text-2xl pt-2'>Full Stack Engineer </h2>
             <h2 className='text-2xl pb-2'>React | Node | Python</h2>
         <div className="my-5 flex flex-wrap flex-row justify-center">
-            <div className="p-5 mx-5 mb-5 bg-gradient-to-b from-teal-500 rounded-ee-full w-80 h-80">
+            <div className="p-5 mx-5 mb-5 bg-gradient-to-b from-cyan-600 rounded-ee-full w-80 h-80">
                 <Image src={headshot} className="rounded-full"/>
             </div>
             <div className="text-left max-w-2xl mx-5 text-md p-5">
