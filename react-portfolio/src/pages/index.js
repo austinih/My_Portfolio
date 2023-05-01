@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-white min-h-screen text-center ' >
+      <main className='bg-white min-h-screen text-center' >
         <Nav/>
         <section className=' '>
           <About/>       

@@ -1,12 +1,26 @@
 import Image from "next/image"
 import headshot from '../../public/Austin_Headshot.jpeg'
+import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
+
 
 export default function About() {
     return (
-        <div className="shadow-md w-screen py-5">
-        <h1 className='text-5xl py-2 text-cyan-600 font-semibold'> Austin Holland</h1>
-            <h2 className='text-2xl pt-2'>Full Stack Engineer </h2>
-            <h2 className='text-2xl pb-2'>React | Node | Python</h2>
+        <div className="shadow-md w-screen pb-5 pt-32 ">
+        <h1 className='text-5xl py-2 mt-5 text-cyan-600 font-semibold'> Austin Holland</h1>
+            <h2 className='text-2xl py-2'>Full Stack Engineer </h2>
+            <h2 className='text-2xl py-2'>React | Node | Python</h2>
+            <ul className='flex pb-5 pt-2 items-center justify-center  text-gray-700'>
+              <li className='cursor-pointer px-4   text-3xl '>
+                <a href="https://www.linkedin.com/in/austinih/" target="_blank" >
+                  <AiFillLinkedin/>
+                </a>
+              </li>
+              <li className='cursor-pointer px-4   text-3xl'>
+                <a href="https://github.com/austinih" target="_blank">
+                  <AiFillGithub/>
+                </a> 
+              </li>
+            </ul>
         <div className="my-5 flex flex-wrap flex-row justify-center">
             <div className="p-5 mx-5 mb-5 bg-gradient-to-b from-cyan-600 rounded-ee-full w-80 h-80">
                 <Image src={headshot}  className="rounded-full"/>
