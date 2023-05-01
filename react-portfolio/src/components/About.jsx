@@ -3,7 +3,7 @@ import headshot from '../../public/Austin_Headshot.jpeg'
 
 export default function About() {
     return (
-        <div>
+        <div className="shadow-md w-screen py-5">
         <h1 className='text-5xl py-2 text-cyan-600 font-semibold'> Austin Holland</h1>
             <h2 className='text-2xl pt-2'>Full Stack Engineer </h2>
             <h2 className='text-2xl pb-2'>React | Node | Python</h2>

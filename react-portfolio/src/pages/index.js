@@ -18,12 +18,12 @@ export default function Home() {
 
       <main className='bg-white min-h-screen text-center ' px-10>
         <Nav/>
-        <section className='px-10 my-5'>
+        <section className=' my-5'>
           <About/>       
         </section>
 
       {/* second page */}
-        <section className='px-10 my-5'>
+        <section className='my-5'>
           <Projects />
         </section>
       </main>
