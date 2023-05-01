@@ -75,15 +75,15 @@ const projects = [
 
 export default function Projects() {
     return (
-        <div className='shadow-md w-screen py-5 bg-gradient-radial from-white  to-slate-100'>
-            <div className='flex px-10 md:justify-center lg:justify-center'>
+        <div className='shadow-md w-screen pb-5 pt-16 bg-gradient-radial from-white  to-slate-100'>
+            <div className='flex px-10  md:justify-center lg:justify-center'>
                 <h3 className='text-3xl mb-3 text-cyan-600  font-semibold text-center'>Projects</h3>
             </div>
             <div className='flex justify-center '>
                 <div className=' flex  flex-wrap flex-row justify-evenly mx-auto max-w-4xl '>
                     {projects.map((project) => (
                         
-                        <div className='w-96 px-7 py-2 m-5  rounded-2xl bg-gradient-to-b shadow-md shadow-black from-cyan-600 hover:scale-105 ' >
+                        <div className='w-96 px-7 py-2 m-5  rounded-2xl bg-gradient-to-b shadow-lg shadow- from-cyan-600 hover:scale-105 ' >
                             <Image src={project.imageUrl} className='w-[22rem] h-56 py-2' />
                             <h3 className='text-2xl text-left mt-2'>{project.name} </h3>
                             <h4 className='text-left mt-2 text-cyan-600'>{project.techStack}</h4>
