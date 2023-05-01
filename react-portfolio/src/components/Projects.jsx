@@ -75,7 +75,7 @@ const projects = [
 
 export default function Projects() {
     return (
-        <div className='shadow-md w-screen pb-5 pt-16 bg-gradient-radial from-white  to-slate-100'>
+        <div className='shadow-md w-screen pb-5 pt-24 bg-gradient-radial from-white  to-slate-100'>
             <div className='flex px-10  md:justify-center lg:justify-center'>
                 <h3 className='text-3xl mb-3 text-cyan-600  font-semibold text-center'>Projects</h3>
             </div>

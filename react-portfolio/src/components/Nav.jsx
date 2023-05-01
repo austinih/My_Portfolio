@@ -1,4 +1,6 @@
 import {BsFillMoonStarsFill} from 'react-icons/bs'
+import Link from 'next/link'
+
 
 export default function Nav() {
     return (
@@ -6,14 +8,15 @@ export default function Nav() {
             
             <ul className='flex items-center justify-center'>
               <li> 
-                <a className='cursor-pointer bg-gradient-to-r from-cyan-600 to-cyan-400 text-white px-4 py-2 mx-2 rounded-md '>About</a>
+                <Link href="#about-section" className='cursor-pointer bg-gradient-to-r from-cyan-600 to-cyan-400 text-white px-4 py-2 mx-2 rounded-md '>About</Link>
               </li>
               <li> 
-                <a className='cursor-pointer bg-gradient-to-r from-cyan-600 to-cyan-400 text-white px-4 py-2 mx-2 rounded-md '>Projects</a>
+                <Link href="#skills-section" className='cursor-pointer bg-gradient-to-r from-cyan-600 to-cyan-400 text-white px-4 py-2 mx-2 rounded-md '>Skills</Link>
               </li>
               <li> 
-                <a className='cursor-pointer bg-gradient-to-r from-cyan-600 to-cyan-400 text-white px-4 py-2 mx-2 rounded-md '>Skills</a>
+                <Link href="#projects-section" className='cursor-pointer bg-gradient-to-r from-cyan-600 to-cyan-400 text-white px-4 py-2 mx-2 rounded-md '>Projects</Link>
               </li>
+              
               <li> 
                 <a className='cursor-pointer bg-gradient-to-r from-cyan-600 to-cyan-400 text-white px-4 py-2 mx-2 rounded-md '>Resume</a>
               </li>
@@ -22,7 +25,9 @@ export default function Nav() {
                   <BsFillMoonStarsFill/>
                 </a>
               </li>
+
             </ul>
+            
             
         </div>
     )

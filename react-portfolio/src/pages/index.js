@@ -6,6 +6,9 @@ import Image from 'next/image'
 import Nav from '@/components/Nav'
 import About from '@/components/About'
 import Projects from '@/components/Projects'
+import Skills from '@/components/Skills'
+
+
 
 export default function Home() {
   return (
@@ -18,14 +21,23 @@ export default function Home() {
 
       <main className='bg-white min-h-screen text-center' >
         <Nav/>
-        <section className=' '>
+
+{/* About */}
+        <section id="about-section" className=' '>
           <About/>       
         </section>
+{/* Skills */}
+<section id="skills-section">
+          <Skills />
+        </section>
 
-      {/* second page */}
-        <section className=''>
+{/* Projects*/}
+        <section id="projects-section">
           <Projects />
         </section>
+
+
+
       </main>
     </div>
   )
