@@ -91,8 +91,8 @@ export default function Projects() {
                                 <p className='text-left mt-2'>{project.summary}</p>
                                 <p className='text-left mt-2 text-xs text-gray-700 italic'>{project.linksMessage}</p>
                                 <div className='flex flex-row mt-2'>     
-                                    {project.githubUrls.map((githubUrl, index) =>(
-                                        <a key={index} href={githubUrl} target="_blank" className='text-2xl pr-3'>
+                                    {project.githubUrls.map((githubUrl) =>(
+                                        <a key={githubUrl} href={githubUrl} target="_blank" className='text-2xl pr-3'>
                                         <AiFillGithub/>
                                         </a>
                                     ))} 
