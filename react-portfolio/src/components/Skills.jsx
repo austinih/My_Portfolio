@@ -1,16 +1,21 @@
 import { FaReact, FaNodeJs} from 'react-icons/fa'
 import { SiTailwindcss, SiJavascript, SiCsswizardry, SiHtml5, SiPostgresql, SiSequelize, SiDjango, SiPython} from 'react-icons/si'
+import {TbBrandNextjs} from 'react-icons/tb'
 
 
 export default function Projects() {
     return (
        
-        <div className="  w-screen pb-5 pt-16 bg-cyan-500">
+        <div className="  w-screen pb-5 pt-24 bg-cyan-500">
             <h3 className='text-3xl mb-3 text-white  font-semibold text-center'>Languages & Technologies</h3>
             <ul className="mx-10 mt-12 mb-8 flex flex-row flex-wrap justify-center">
                 <li className="p-5 flex flex-col items-center">
                     <FaReact className='text-4xl text-white'/>
                     <h5 className='text-center text-white'>React</h5>
+                </li>
+                <li className="p-5 flex flex-col items-center">
+                    <TbBrandNextjs className='text-4xl text-white'/>
+                    <h5 className='text-center text-white'>Next</h5>
                 </li>
                 <li className="p-5 flex flex-col items-center">
                     <FaNodeJs className='text-4xl text-white'/>

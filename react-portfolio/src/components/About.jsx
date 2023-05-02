@@ -5,7 +5,7 @@ import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 
 export default function About() {
     return (
-        <div className="shadow-md w-screen pb-5 pt-32 ">
+        <div className="shadow-md w-screen pb-5 pt-32 bg-mountains bg-cover">
         <h1 className='text-5xl py-2 mt-5 text-cyan-600 font-semibold'> Austin Holland</h1>
             <h2 className='text-2xl py-2'>Full Stack Engineer </h2>
             <h2 className='text-2xl py-2'>React | Node | Python</h2>
