@@ -75,39 +75,36 @@ const projects = [
 
 export default function Projects() {
     return (
-        <div className='shadow-md w-screen pb-5 pt-24 bg-watercolor bg-cover'>
-            <div className='flex px-10  md:justify-center lg:justify-center'>
-                <h3 className='text-3xl mb-3 text-cyan-600  font-semibold text-center'>Projects</h3>
-            </div>
-            <div className='flex justify-center '>
-                <div className=' flex  flex-wrap flex-row justify-evenly mx-auto max-w-4xl '>
-                    {projects.map((project) => (
-                        
-                        <div className='w-96 px-7 py-2 m-5  rounded-2xl bg-gradient-to-b shadow-lg shadow- from-cyan-600 hover:scale-105 ' >
-                            <Image src={project.imageUrl} className='w-[22rem] h-56 py-2' />
-                            <h3 className='text-2xl text-left mt-2'>{project.name} </h3>
-                            <h4 className='text-left mt-2 text-cyan-600'>{project.techStack}</h4>
-                            <p className='text-left mt-2'>{project.summary}</p>
-                            <p className='text-left mt-2 text-xs text-gray-700 italic'>{project.linksMessage}</p>
-                            <div className='flex flex-row mt-2'>     
-                                {project.githubUrls.map((githubUrl) =>(
-                                    <a href={githubUrl} target="_blank" className='text-2xl pr-3'>
-                                    <AiFillGithub/>
+        <div className='shadow-md w-screen  bg-wave  bg-cover'>
+            <div className="bg-white bg-opacity-70 w-full h-full pb-5 pt-32">
+                <div className='flex px-10  md:justify-center lg:justify-center'>
+                    <h3 className='text-3xl mb-3 text-cyan-600  font-semibold text-center'>Projects</h3>
+                </div>
+                <div className='flex justify-center '>
+                    <div className=' flex  flex-wrap flex-row justify-evenly mx-auto max-w-4xl '>
+                        {projects.map((project) => (
+                            
+                            <div className=' w-96 px-7 py-2 m-5  rounded-2xl shadow-lg  bg-gradient-to-b  from-cyan-600 to-white lg:hover:scale-105 ' >
+                                <Image src={project.imageUrl} className='w-[22rem] h-56 py-2' />
+                                <h3 className='text-2xl text-left mt-2'>{project.name} </h3>
+                                <h4 className='text-left mt-2 text-cyan-600'>{project.techStack}</h4>
+                                <p className='text-left mt-2'>{project.summary}</p>
+                                <p className='text-left mt-2 text-xs text-gray-700 italic'>{project.linksMessage}</p>
+                                <div className='flex flex-row mt-2'>     
+                                    {project.githubUrls.map((githubUrl) =>(
+                                        <a href={githubUrl} target="_blank" className='text-2xl pr-3'>
+                                        <AiFillGithub/>
+                                        </a>
+                                    ))} 
+                                    
+                                    <a href={project.deployedUrl} target="_blank" rel="noreferrer " className='text-2xl pr-3'>
+                                        <AiOutlineLink/>    
+                                    
                                     </a>
-                                ))} 
-                                
-                                <a href={project.deployedUrl} target="_blank" rel="noreferrer " className='text-2xl pr-3'>
-                                    <AiOutlineLink/>    
-                                
-                                </a>
+                                </div>
                             </div>
-                        </div>
-                    ))}
-                   
-                
-                
-
-                
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>
