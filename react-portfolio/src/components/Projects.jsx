@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import rpgRealms from '../../public/Rpg-Realms.gif'
+import rpgRealms from '../../public/RPG-Realms.gif'
 import tickit from '../../public/Tick-iT.gif'
 import triviata from '../../public/Triviata.gif'
 import worldWise from '../../public/World-Wise.gif'
