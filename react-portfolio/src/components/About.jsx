@@ -11,12 +11,12 @@ export default function About() {
                     <h2 className='text-2xl py-2'>Full Stack Engineer </h2>
                     <h2 className='text-2xl py-2'>React | Node | Python</h2>
                     <ul className='flex pb-5 pt-2 items-center justify-center  text-gray-700'>
-                    <li className='cursor-pointer px-4   text-3xl '>
+                    <li className='cursor-pointer px-4   text-3xl hover: hover:text-cyan-600'>
                         <a href="https://www.linkedin.com/in/austinih/" target="_blank" >
                         <AiFillLinkedin/>
                         </a>
                     </li>
-                    <li className='cursor-pointer px-4   text-3xl'>
+                    <li className='cursor-pointer px-4   text-3xl hover:text-cyan-600'>
                         <a href="https://github.com/austinih" target="_blank">
                         <AiFillGithub/>
                         </a> 
