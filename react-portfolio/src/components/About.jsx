@@ -24,7 +24,7 @@ export default function About() {
                     </ul>
                 <div className="my-5 flex flex-wrap flex-row justify-center">
                     <div className="p-5 mx-5 mb-5 bg-gradient-to-b from-cyan-600 rounded-ee-full w-80 h-80">
-                        <Image src={headshot}  className="rounded-full"/>
+                        <Image src={headshot} alt="Austin Holland" className="rounded-full"/>
                     </div>
                     <div className="text-left max-w-2xl mx-5 text-md p-5 ">
                         <h2 className=" text-3xl mb-3 text-cyan-600  font-semibold">About Me</h2>
