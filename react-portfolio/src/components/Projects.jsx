@@ -91,10 +91,12 @@ export default function Projects() {
                                 <p className='text-left mt-2'>{project.summary}</p>
                                 <p className='text-left mt-2 text-xs text-gray-700 italic'>{project.linksMessage}</p>
                                 <div className='flex flex-row mt-2'>     
-                                    {project.githubUrls.map((githubUrl) =>(
-                                        <a key={index} href={githubUrl} target="_blank" className='text-2xl pr-3'>
-                                        <AiFillGithub/>
-                                        </a>
+                                    {project.githubUrls.map((githubUrl,index) =>(
+                                        <div key={index}>
+                                            <a  href={githubUrl} target="_blank" className='text-2xl pr-3'>
+                                                <AiFillGithub/> 
+                                            </a>
+                                        </div>
                                     ))} 
                                     
                                     <a href={project.deployedUrl} target="_blank" rel="noreferrer " className='text-2xl pr-3'>
