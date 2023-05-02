@@ -90,7 +90,7 @@ export default function Projects() {
                                 <h4 className='text-left mt-2 text-cyan-600'>{project.techStack}</h4>
                                 <p className='text-left mt-2'>{project.summary}</p>
                                 <p className='text-left mt-2 text-xs text-gray-700 italic'>{project.linksMessage}</p>
-                                <div className='flex flex-row mt-2'>     
+                                {/* <div className='flex flex-row mt-2'>     
                                     {project.githubUrls.map((githubUrl,index) =>(
                                         <div key={index}>
                                             <a  href={githubUrl} target="_blank" className='text-2xl pr-3'>
@@ -103,7 +103,7 @@ export default function Projects() {
                                         <AiOutlineLink/>    
                                     
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
                         ))}
                     </div>
