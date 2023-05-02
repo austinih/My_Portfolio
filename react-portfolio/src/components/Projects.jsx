@@ -84,7 +84,7 @@ export default function Projects() {
                     <div className=' flex  flex-wrap flex-row justify-evenly mx-auto max-w-7xl '>
                         {projects.map((project) => (
                             
-                            <div className=' w-96 px-7 py-2 m-5  rounded-2xl shadow-lg  bg-gradient-to-b  from-cyan-600 to-white lg:hover:scale-105 ' >
+                            <div key={project.id} className=' w-96 px-7 py-2 m-5  rounded-2xl shadow-lg  bg-gradient-to-b  from-cyan-600 to-white lg:hover:scale-105 ' >
                                 <Image src={project.imageUrl} alt={project.name} className='w-[22rem] h-56 py-2' />
                                 <h3 className='text-2xl text-left mt-2'>{project.name} </h3>
                                 <h4 className='text-left mt-2 text-cyan-600'>{project.techStack}</h4>
