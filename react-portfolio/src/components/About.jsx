@@ -9,7 +9,6 @@ export default function About() {
             <div className="bg-white bg-opacity-70 w-full h-full pb-5 pt-32">
                 <h1 className='text-5xl py-2 mt-5 text-cyan-600 font-semibold'> Austin Holland</h1>
                     <h2 className='text-2xl py-2'>Full Stack Engineer </h2>
-                    <h2 className='text-2xl py-2'>React | Node | Python</h2>
                     <ul className='flex pb-5 pt-2 items-center justify-center  text-gray-700'>
                     <li className='cursor-pointer px-4   text-3xl hover: hover:text-cyan-600'>
                         <a href="https://www.linkedin.com/in/austinih/" target="_blank" >
