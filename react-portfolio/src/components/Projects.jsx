@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import gameHub from '../../public/GameHub.gif'
 import rpgRealms from '../../public/RPG-Realms.gif'
 import tickit from '../../public/Tick-iT.gif'
 import triviata from '../../public/Triviata.gif'
@@ -8,6 +9,18 @@ import { AiFillGithub, AiOutlineLink} from 'react-icons/ai'
 
 
 const projects = [
+    {
+        id:0,
+        name:"GameHub",
+        techStack:"React | TypeScript | Chakra UI",
+        imageUrl: gameHub,
+        summary: "Video game discovery app, designed with reusable components for DRY code",
+        frontGithubUrl: "https://github.com/austinih/game-hub",
+        backGithubUrl: "NA",
+        githubUrls: ["https://github.com/austinih/game-hub"],
+        deployedUrl: "https://game-hub-austinh.vercel.app/",
+        linksMessage: "Use the links below to visit the GitHub repo & deployed site"
+    },
     {
         id:1,
         name:"RPG Realms",
