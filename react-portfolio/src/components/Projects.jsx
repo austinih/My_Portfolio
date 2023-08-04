@@ -110,18 +110,6 @@ export default function Projects() {
                                     <a href={project.deployedUrl} target="_blank" rel="noreferrer " className='text-2xl pr-3'>
                                         <AiOutlineLink/>    
                                     </a>     
-                                    {/* {project.githubUrls.map((githubUrl,index) =>(
-                                        <div key={index}>
-                                            <a  href={githubUrl} target="_blank" className='text-2xl pr-3'>
-                                                <AiFillGithub/> 
-                                            </a>
-                                        </div>
-                                    ))} 
-                                    
-                                    <a href={project.deployedUrl} target="_blank" rel="noreferrer " className='text-2xl pr-3'>
-                                        <AiOutlineLink/>    
-                                    
-                                    </a> */}
                                 </div>
                             </div>
                         ))}
