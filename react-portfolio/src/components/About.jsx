@@ -28,8 +28,7 @@ export default function About() {
                     <div className="text-left max-w-2xl mx-5 text-md p-5 ">
                         <h2 className=" text-3xl mb-3 text-cyan-600  font-semibold">About Me</h2>
                         {/* <div className="bg-gray-800 opacity-80 p-5 rounded-2xl"> */}
-                        <p className=' leading-7 text-gray-800'>
-                        Tech-savvy accountant turned innovative software engineer with a knack for building meaningful relationships and learning quickly. Combining analytical prowess with creative problem-solving, I bring a fresh perspective to coding, fueled by my passion for technology and curiosity for exploring the unknown. Adaptable, people-focused, and inventive, I thrive in collaborative environments where I can leverage my diverse background to drive impactful solutions and redefine what's possible in the world of software engineering.
+                        <p className=' leading-7 text-gray-800'>I’m a Full Stack Software Engineer with a background in Accounting and Recruiting. I use my previous experience in combination with software development to first understand the why behind a project. And second, to deliver a user-friendly solution that exceeds expectations. I believe technology should be simple, powerful, and fun! I strive to incorporate these principles in every product I create to improve the world one program at a time.
                         </p>
                         {/* </div> */}
                     </div>
