@@ -29,7 +29,7 @@ export default function About() {
                         <h2 className=" text-3xl mb-3 text-cyan-600  font-semibold">About Me</h2>
                         {/* <div className="bg-gray-800 opacity-80 p-5 rounded-2xl"> */}
                         <p className=' leading-7 text-gray-800'>
-                        Tech-savvy accountant turned innovative software engineer with a knack for building meaningful relationships and learning quickly. Combining analytical prowess with creative problem-solving, I bring a fresh perspective to coding, fueled by my passion for technology and curiosity for exploring the unknown. Adaptable, people-focused, and inventive, I thrive in collaborative environments where I can leverage my diverse background to drive impactful solutions and redefine what's possible in the world of software engineering.
+                        Tech-savvy accountant turned innovative software engineer with a knack for building meaningful relationships and learning quickly. Combining analytical prowess with creative problem-solving, I bring a fresh perspective to coding, fueled by my passion for technology and curiosity for exploring the unknown. Adaptable, people-focused, and inventive, I thrive in collaborative environments where I can leverage my diverse background to drive impactful solutions and redefine what's possible in the world of technology.
                         </p>
                         {/* </div> */}
                     </div>
